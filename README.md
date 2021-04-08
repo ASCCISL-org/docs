@@ -43,4 +43,101 @@ Tell is the internal command that outputs text, tell knows a couple of arguments
 
 ###### text
 
-`text` is the easiest part, it tells `tell` what text to print. 
+_text_ is the easiest part, it tells _tell_ what text to print. 
+
+###### target
+
+_target_ accepts either `con`, a device-name to send the text string to, or a specific file path.
+
+**examples:**
+
+````
+,sends it to the console, which is default for most languages
+target:con;
+
+,sends it to lcdscreen1, if that lcd screen supports direct text input.
+target:lcdscreen1;
+
+,sends it to myfile.txt on the oompa drive
+target:'/MEDIA/user/oompa/myfile.txt'
+````
+
+###### nl
+
+*nl* sets a newline, using a boolean value that contains either `1` or `0`, for true or false. The newline will always be printed before the text value. *.tell* without the *nl*-argument, will always fall back to it's standard value 1.
+
+Example:
+
+
+```CiCIScript
+.tell{text:'Hello';target:con;nl=1}
+.tell{text:' world';target:con;nl=0}
+```
+will output 
+```text
+Hello world
+```
+but
+```CiCIScript
+.tell{text:'Hello';target:con;nl=1}
+.tell{text:' world';target:con;nl=0}
+```
+
+will output 
+```text
+Hello
+ world"
+```
+Which is probably not the goal to achieve in this case.
+
+### Hello world 2
+
+A simple script outputting the famous "Hello World", but with your name in it too.
+
+`helloworld2.CiCIs:`
+
+````CiCIscript
+.: name=Mark
+.tell{text:'Hello world, %name%';target:con;nl=1}
+.end
+````
+
+#### Breakdown
+
+##### .
+
+The dot refers to internal command, these are the commands that are always included in CiCI's basis. Internal commands should always be called using a dot and directly after the name of the command, without any spaces or other tokens in between.
+
+##### :
+
+The double dot set variables, these are standard saved as a string, but if containing a number they will be able to be altered.
+
+###### Setting variables using :
+
+Some examples.
+
+For a single word variable, use
+
+```
+.: word=single
+```
+
+for a string, the same logics can be used.
+
+```
+.: sentence="hi I am not single, I am with nine."
+```
+
+
+
+For numbers, theres more.
+
+Although a number containing string can be sent to any command that supports numbers, sometimes a number might look like a string for the computer.
+
+A full number can be set like `.: number=20` and CiCI will automatically save it as a number.  `.: number=2,0` , though, can be problematic. There's a solution for both!
+
+
+
+>  In programming languages, numbers are typically split into 32-bit numbers, and 64-bit numbers. 
+
+> In Batch, you had to evoke PowerShell to be able to use 64-bit numbers. And in JAVA the variables of numbers and of what it calls '`doubles`' 
