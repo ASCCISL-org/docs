@@ -1,3 +1,9 @@
+---
+title: Example: Hello World
+---
+
+
+
 # Hello world
 
 A simple script outputting the famous "Hello World".

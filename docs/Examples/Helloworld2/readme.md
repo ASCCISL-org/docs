@@ -1,3 +1,9 @@
+---
+title: Example: Hello World 2 
+---
+
+
+
 # Hello world 2
 
 A simple script outputting the famous "Hello World", but with your name in it too.

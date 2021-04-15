@@ -1,3 +1,9 @@
+---
+title: Dot-colon-hash
+---
+
+
+
 # Using permactive variables using .:#
 
 > Although a number containing string can be sent to any command that supports numbers, sometimes a number might look like a string for the computer.

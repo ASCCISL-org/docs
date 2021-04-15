@@ -1,3 +1,9 @@
+---
+title: Documentation home
+---
+
+
+
 # CiCIScript / AS<font color="#13D3BD">CCIS</font>L
 
 _**A**daptive **S**imple **<font color="#13D3BD">C</font>**ompatible **<font color="#13D3BD">C</font>**ommand **<font color="#13D3BD">I</font>**nterpreted **<font color="#13D3BD">S</font>**cripting **L**anguage designed to easily make the simplest of programs without the hassle of real programming languages._

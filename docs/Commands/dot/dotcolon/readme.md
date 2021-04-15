@@ -1,3 +1,9 @@
+---
+title: Dot-colon
+---
+
+
+
 # :
 
 The colon sets variables, these are standard saved as a string, but if containing a number they will be able to be altered. **The colon is an internal command.**
