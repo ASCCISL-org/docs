@@ -1,5 +1,5 @@
 ---
-title: Example: Hello World 2 
+title: "Example: Hello World 2" 
 ---
 
 
