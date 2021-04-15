@@ -1,6 +1,6 @@
 # CiCIScript / AS<font color="#13D3BD">CCIS</font>L
 
-<p><em><strong>A</strong>daptive <strong>S</strong>imple <strong><font color="#13D3BD">C</font></strong>ompatible <strong><font color="#13D3BD">C</font></strong>ommand <strong><font color="#13D3BD">I</font></strong>nterpreted <strong><font color="#13D3BD">S</font></strong>cripting <strong>L</strong>anguage designed to easily make the simplest of programs without the hassle of real programming languages.</em></p>
+_**A**daptive **S**imple **<font color="#13D3BD">C</font>**ompatible **<font color="#13D3BD">C</font>**ommand **<font color="#13D3BD">I</font>**nterpreted **<font color="#13D3BD">S</font>**cripting **L**anguage designed to easily make the simplest of programs without the hassle of real programming languages._
 
 By Marnix Bloeiman.
 
