@@ -2,3 +2,5 @@ show_downloads: false
 title: ASCCISL Documentation
 description: CiCIScript, the Adaptive Simple Compatible Command Interpreted Scripting Language designed to easily make the simplest of programs without the hassle of real programming languages.
 theme: jekyll-theme-hacker
+github:
+  repository_url: https://github.com/ASCCISL-org/
