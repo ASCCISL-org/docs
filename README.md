@@ -17,4 +17,4 @@ also see: [Marnix0810/MAASL-scriptinglanguage](https://github.com/Marnix0810/MAA
 > I do know a bit JAVA, VBScript, Rust and Python, especially my recent encounters of JAVA have re-inspired me to write this, because of the whole project, this README.MD file will be the core. Instead of writing code and explaining it afterwards, this project will first have an explanation of what has to happen, and the code afterwards.
 >
 
-See the documentation on https://marnix0810.github.io/ASCCISL/ for more
+See the documentation on https://asccisl-org.github.io/ASCCISL/ for more

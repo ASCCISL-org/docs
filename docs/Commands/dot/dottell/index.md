@@ -6,7 +6,7 @@ title: Dot-tell
 
 # tell
 
-Tell is the [internal command](https://marnix0810.github.io/ASCCISL/Commands/dot/) that outputs text, tell knows a couple of arguments.
+Tell is the [internal command](https://asccisl-org.github.io/ASCCISL/Commands/dot/) that outputs text, tell knows a couple of arguments.
 
 ## text
 
