@@ -8,15 +8,13 @@ title: Dot-tell
 
 Tell is the [internal command](https://marnix0810.github.io/ASCCISL/Commands/dot/) that outputs text, tell knows a couple of arguments.
 
-###### text
+## text
 
 _text_ is the easiest part, it tells _tell_ what text to print. 
 
-###### target
+### target
 
 _target_ accepts either `con`, a device-name to send the text string to, or a specific file path.
-
-**examples:**
 
 ````
 ,sends it to the console, which is default for most languages
@@ -29,7 +27,7 @@ target:lcdscreen1;
 target:'/MEDIA/mark/oompa/myfile.txt'
 ````
 
-###### nl
+#### nl
 
 *nl* sets a newline, using a boolean value that contains either `1` or `0`, for true or false. The newline will always be printed before the text value. *.tell* without the *nl*-argument, will always fall back to it's standard value 1.
 
