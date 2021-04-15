@@ -4,7 +4,7 @@ The colon sets variables, these are standard saved as a string, but if containin
 
 
 
-###### Setting variables using :
+## Setting variables using :
 
 Some examples.
 
@@ -24,7 +24,7 @@ String variables are written to a temporary file (`(temp folder)/CiCISessions/(s
 
 For numbers (and automatically 0/1 booleans too), there's more.
 
-###### Using permactive variables using .:#
+## Using permactive variables using .:#
 
 Although a number containing string can be sent to any command that supports numbers, sometimes a number might look like a string for the computer.
 
