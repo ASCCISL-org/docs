@@ -12,6 +12,6 @@ The dot refers to internal command, these are the commands that are always inclu
 
 ## Examples of .-commands:
 
-- [dot-colon (:)](https://asccisl-org.github.io/ASCCISL/Commands/dot/dotcolon/)
-- [dot-end](https://asccisl-org.github.io/ASCCISL/Commands/dot/dotend/)
-- [dot-tell](https://asccisl-org.github.io/ASCCISL/Commands/dot/dottell/)
+- [dot-colon (:)](https://asccisl-org.github.io/docs/Commands/dot/dotcolon/)
+- [dot-end](https://asccisl-org.github.io/docs/Commands/dot/dotend/)
+- [dot-tell](https://asccisl-org.github.io/docs/Commands/dot/dottell/)

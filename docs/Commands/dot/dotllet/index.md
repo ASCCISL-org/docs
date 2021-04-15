@@ -6,7 +6,7 @@ title: Dot-llet
 
 # llet
 
-llet is the [internal command](https://asccisl-org.github.io/ASCCISL/Commands/dot/) that imports text to variables, llet knows a couple of arguments.
+llet is the [internal command](https://asccisl-org.github.io/docs/Commands/dot/) that imports text to variables, llet knows a couple of arguments.
 
 *llet* is the exact opposite of *tell*, their names mirror that.
 

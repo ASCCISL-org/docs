@@ -42,4 +42,4 @@ title: Dot-colon-hash
 >
 > Altering an permactive variable with plain `.:` will stand-bye it too, since it just saves it differently, the contrary is not possible, for `.:#` needs to be sure it sets numbers.
 
-See:  <https://asccisl-org.github.io/ASCCISL/Commands/dot/dotcolon/#using-permactive-variables-using->
+See:  <https://asccisl-org.github.io/docs/Commands/dot/dotcolon/#using-permactive-variables-using->
