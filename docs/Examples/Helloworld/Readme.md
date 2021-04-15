@@ -15,6 +15,8 @@ A simple script outputting the famous "Hello World".
 
 > The dot refers to internal command, these are the commands that are  always included in CiCI’s basis. Internal commands should always be  called using a dot and directly after the name of the command, without  any spaces or other tokens in between.
 
+See: <https://marnix0810.github.io/ASCCISL/Commands/dot/>
+
 ##### [tell](https://marnix0810.github.io/ASCCISL/Commands/dot/dottell)
 
 > Tell is the internal command that outputs text, tell knows a couple of arguments.
@@ -74,7 +76,7 @@ A simple script outputting the famous "Hello World".
 >
 > Which is probably not the goal to achieve in this case.
 
-See: https://marnix0810.github.io/ASCCISL/Commands/dot/dottell
+See: <https://marnix0810.github.io/ASCCISL/Commands/dot/dottell>
 
 ##### [end](https://marnix0810.github.io/ASCCISL/Commands/dot/dotend)
 
@@ -82,4 +84,4 @@ See: https://marnix0810.github.io/ASCCISL/Commands/dot/dottell
 >
 > [end is an internal command.](https://marnix0810.github.io/ASCCISL/Commands/dot/)
 
-See: https://marnix0810.github.io/ASCCISL/Commands/dot/dotend
+See: <https://marnix0810.github.io/ASCCISL/Commands/dot/dotend>
