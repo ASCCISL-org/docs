@@ -19,7 +19,7 @@ Since this project is a retry/restart of MAASL, I think it has also become clear
 
 ## My experience and motivation
 
-In the past, as you can see, I have mainly wrote Batch. Batch is not a programming language, but called parts of code that I wrote in other languages. Unfortunately I'm not the best programmer, so I could not write a full program in a civilised programming language.
+In the past, as you can see, I have written mostly Batch. Batch is not a programming language, but called parts of code that I wrote in other languages. Unfortunately, I am not the best programmer, so I could not write a complete program in a civilized programming language.
 
 I do know a bit JAVA, VBScript, Rust and Python, especially my recent encounters of JAVA have re-inspired me to write this, because of the whole project, this README.MD file will be the core. Instead of writing code and explaining it afterwards, this project will first have an explanation of what has to happen, and the code afterwards.
 
