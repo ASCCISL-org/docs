@@ -1,4 +1,4 @@
-### Hello world 2
+# Hello world 2
 
 A simple script outputting the famous "Hello World", but with your name in it too.
 
@@ -10,15 +10,15 @@ A simple script outputting the famous "Hello World", but with your name in it to
 .end
 ````
 
-#### Breakdown
+## Breakdown
 
-##### [The dot](https://marnix0810.github.io/ASCCISL/Commands/dot/)
+### [The dot](https://marnix0810.github.io/ASCCISL/Commands/dot/)
 
 > The dot refers to internal command, these are the commands that are  always included in CiCI’s basis. Internal commands should always be  called using a dot and directly after the name of the command, without  any spaces or other tokens in between.
 
 See: <https://marnix0810.github.io/ASCCISL/Commands/dot/>
 
-##### [tell](https://marnix0810.github.io/ASCCISL/Commands/dot/dottell)
+### [tell](https://marnix0810.github.io/ASCCISL/Commands/dot/dottell)
 
 > Tell is the internal command that outputs text, tell knows a couple of arguments.
 >
@@ -79,7 +79,7 @@ See: <https://marnix0810.github.io/ASCCISL/Commands/dot/>
 
 See: <https://marnix0810.github.io/ASCCISL/Commands/dot/dottell>
 
-##### [:](https://marnix0810.github.io/ASCCISL/Commands/dot/dotcolon/)
+### [:](https://marnix0810.github.io/ASCCISL/Commands/dot/dotcolon/)
 
 > The double dot sets variables, these are standard saved as a string, but if containing a number they will be able to be altered.
 >
@@ -143,7 +143,7 @@ See: <https://marnix0810.github.io/ASCCISL/Commands/dot/dottell>
 
 See: <https://marnix0810.github.io/ASCCISL/Commands/dot/dotcolon/>
 
-##### [end](https://marnix0810.github.io/ASCCISL/Commands/dot/dotend)
+### [end](https://marnix0810.github.io/ASCCISL/Commands/dot/dotend)
 
 > `.end` is used at the end of scripts or routines to indicate the end of file is achieved, sometimes even when there's unused code ahead.
 >
