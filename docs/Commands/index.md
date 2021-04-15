@@ -15,3 +15,5 @@ This page is dedicated to listing all commands in CiCI's docs.
     - [dot-colon-hash (:#)](https://marnix0810.github.io/ASCCISL/Commands/dot/dotcolon/dotcolonhash/) (internal)
   - [dot-end](https://marnix0810.github.io/ASCCISL/Commands/dot/dotend/) (internal)
   - [dot-tell](https://marnix0810.github.io/ASCCISL/Commands/dot/dottell/) (internal)
+  - [dot-llet](https://marnix0810.github.io/ASCCISL/Commands/dot/dotllet/) (internal)
+  - [dot-com](https://marnix0810.github.io/ASCCISL/Commands/dot/dotlcom/) (internal)
