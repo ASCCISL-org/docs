@@ -9,6 +9,14 @@ title: Dot-Com
 
 Dotcom is a very important [internal command](https://asccisl-org.github.io/docs/Commands/dot/). It is the command that allows CiCIScripts to use non-internal commands, "biks" -- a huge expansion.
 
+
+
+dotcom downloads or copies a .bik file and unzips it, then by default places the unzipped files into the session folder ((temp folder)/CiCISessions/(session).tmp/biks).
+
+In most cases, dotcom relies on internet to operate, which is a risk, but seen as most people tend to have internet, I doubt that the number of problems will be high (and there's always the *place* argument!).
+
+
+
 dotcom knows a lot of arguments, but a lot of them are optional.
 
 ``.com{[map:"(map)"];[dep:(0/1)];[load];[keep:(0/1)];[place:(0/1)];get:(the bik);[local:(0/1)]}``
