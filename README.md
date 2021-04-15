@@ -1,6 +1,6 @@
 # CiCIScript / AS<font color="#13D3BD">CCIS</font>L
 
-_**A**daptive **S**imple **<font color="#13D3BD">C</font>**ompatible **<font color="#13D3BD">C</font>**ommand **<font color="#13D3BD">I</font>**nterpreted **<font color="#13D3BD">S</font>**cripting **L**anguage designed to easily make the simplest of programs without the hassle of real programming languages._
+<p><em><strong>A</strong>daptive <strong>S</strong>imple <strong><font color="#13D3BD">C</font></strong>ompatible <strong><font color="#13D3BD">C</font></strong>ommand <strong><font color="#13D3BD">I</font></strong>nterpreted <strong><font color="#13D3BD">S</font></strong>cripting <strong>L</strong>anguage designed to easily make the simplest of programs without the hassle of real programming languages.</em></p>
 
 By Marnix Bloeiman
 
@@ -59,7 +59,7 @@ target:con;
 target:lcdscreen1;
 
 ,sends it to myfile.txt on the oompa drive
-target:'/MEDIA/user/oompa/myfile.txt'
+target:'/MEDIA/mark/oompa/myfile.txt'
 ````
 
 ###### nl
@@ -86,7 +86,7 @@ but
 will output 
 ```text
 Hello
- world"
+ world
 ```
 Which is probably not the goal to achieve in this case.
 
@@ -110,7 +110,7 @@ The dot refers to internal command, these are the commands that are always inclu
 
 ##### :
 
-The double dot set variables, these are standard saved as a string, but if containing a number they will be able to be altered.
+The double dot sets variables, these are standard saved as a string, but if containing a number they will be able to be altered.
 
 ###### Setting variables using :
 
@@ -128,9 +128,11 @@ for a string, the same logics can be used.
 .: sentence="hi I am not single, I am with nine."
 ```
 
+String variables are written to a temporary file (`(temp folder)/CiCISessions/(session).tmp/vars/(varname).cicivar`) until being called and then erased from RAM as soon as they seem unused.
 
+For numbers (and automatically 0/1 booleans too), there's more.
 
-For numbers, theres more.
+###### Using permactive variables using .:#
 
 Although a number containing string can be sent to any command that supports numbers, sometimes a number might look like a string for the computer.
 
@@ -138,6 +140,31 @@ A full number can be set like `.: number=20` and CiCI will automatically save it
 
 
 
->  In programming languages, numbers are typically split into 32-bit numbers, and 64-bit numbers. 
+>  In programming languages, numbers are typically split into 32-bit numbers, and 64-bit numbers. In Batch, you had to evoke PowerShell to be able to use 64-bit numbers. And in JAVA the variables of numbers and of what it calls '`doubles`'  are two entirely different things. 32-bit numbers and 64-bit numbers.
+>
+>  In CiCI, variables are not saved in ram, but put directly into a temporary file (`(temp folder)/CiCISessions/(session).tmp/vars/(varname).cicivar`).
+>
+>  This might slow down CiCIscripts a lot, especially in case of number variables. And that's where .:# comes in. It defines a number, not a string. Even though it won't change the way the variable can be called it does make CiCI aware that is a number that needs to be in the RAM, and CiCI will have to figure out what type of number it is.
 
-> In Batch, you had to evoke PowerShell to be able to use 64-bit numbers. And in JAVA the variables of numbers and of what it calls '`doubles`' 
+
+
+`.:#` defines a variable, to save it to the RAM instead of to the temp folder. Permactive variables can only contain numbers, which makes them usefull to calculate with.
+
+```
+.: num=1
+.: num+=3
+.tell{text:%num%;target:con;nl=0}
+```
+and
+
+```
+.:# num=1
+.:# num+=3
+.tell{text:%num%;target:con;nl=0}
+```
+
+Would both output `4`. But the latter would be able to do so at a much higher speed, especially on a hard drive.
+
+To permactivate a set variable, just use  `.:# var`. To put a variable to stand-bye (the usual state, and the standard state for strings), `.: # var` will do.
+
+Altering an permactive variable with plain `.:` will stand-bye it too, since it just saves it differently, the contrary is not possible, for `.:#` needs to be sure it sets numbers.
