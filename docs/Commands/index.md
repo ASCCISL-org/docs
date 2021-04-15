@@ -1,3 +1,9 @@
+---
+title: Command list
+---
+
+
+
 # CiCIScript commands
 
 This page is dedicated to listing all commands in CiCI's docs.
