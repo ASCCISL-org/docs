@@ -1,5 +1,6 @@
 ---
-title: Documentation home
+title: "Documentation home"
+
 ---
 
 
