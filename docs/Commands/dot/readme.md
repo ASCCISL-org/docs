@@ -6,3 +6,6 @@ The dot refers to internal command, these are the commands that are always inclu
 
 ## Examples of .-commands:
 
+- [dot-colon (:)](https://marnix0810.github.io/ASCCISL/Commands/dot/dotcolon/)
+- [dot-end](https://marnix0810.github.io/ASCCISL/Commands/dot/dotend/)
+- [dot-tell](https://marnix0810.github.io/ASCCISL/Commands/dot/dottell/)
